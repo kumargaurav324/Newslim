@@ -1,6 +1,7 @@
 <?php
     
-    $output = shell_exec( 'cd /home/getsport/public_html/webhook_test/Newslim ; git add . ; git commit -m "just commit" ; git pull origin master ;'  );
+    
+    $output = shell_exec( 'cd /home/getsport/public_html/webhook_test/Newslim ; git pull origin master ;'  );
     echo "<pre>$output</pre>";
     
     ?>
